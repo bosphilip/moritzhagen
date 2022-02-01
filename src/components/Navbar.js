@@ -29,10 +29,14 @@ export default function Nav() {
 				</li>
 				<li className="navListItem">
 					<a href="http://www.booking.com/Share-BY2Hne">
-						<img className="navIcon navIcons" src={airbnb}></img>
+						<img alt="booking" className="navIcon navIcons" src={airbnb}></img>
 					</a>
 					<a href="http://www.airbnb.com/">
-						<img className="navIcon navIcons" src={bookingcom}></img>
+						<img
+							alt="airbnb"
+							className="navIcon navIcons"
+							src={bookingcom}
+						></img>
 					</a>
 				</li>
 			</ul>
